@@ -8,7 +8,7 @@ namespace Model.Request
 {
     public class User
     {
-        public string Username { get; set; }
+        public string username { get; set; }
         public string Password { get; set; }
     }
 }
