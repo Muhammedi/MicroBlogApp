@@ -26,7 +26,7 @@ namespace MicroBlogApp.Controllers
             var post = new Post
             {
                 Text = postDto.Text,
-                ImageUrl = postDto.ImageUrl,
+                ImageUr = postDto.ImageUrl,
                 Latitude = postDto.Latitude,
                 Longitude = postDto.Longitude,
                 CreatedAt = DateTime.UtcNow,
